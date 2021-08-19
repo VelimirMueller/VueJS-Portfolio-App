@@ -1,23 +1,34 @@
 <template>
   <Navbar />
   <Hero />
-  <Content />
-  <Lina />
+  <Welcome />
+  <Technologies />
+  <Charts />
+  <Contact />
+  <ScrollUp />
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
 import Hero from './components/Hero.vue';
-import Content from './components/Content.vue';
-import Lina from './components/Lina.vue';
+import Welcome from './components/Welcome.vue';
+import Technologies from './components/Technologies.vue';
+import Charts from './components/Charts.vue';
+import Contact from './components/Contact.vue';
+import ScrollUp from './components/ScrollUp.vue';
+
+
 
 export default {
   name: 'App',
   components: {
     Navbar,
     Hero,
-    Content,
-    Lina
+    Welcome,
+    Technologies,
+    Charts,
+    Contact,
+    ScrollUp,
   }
 }
 </script>
@@ -31,4 +42,14 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
+html{
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+section{
+  scroll-snap-align: start;
+}
+
 </style>
