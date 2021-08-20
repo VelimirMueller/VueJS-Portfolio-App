@@ -5,7 +5,7 @@
         
         <div class="lg:w-6xl w-full mx-auto py-28 h-full">
           <!-- Content -->
-          <h1 class="text-2xl text-gray-300">Visualization of all components of this app</h1>
+          <h1 class="text-2xl text-gray-300 mb-4">Visualization of all components of this app</h1>
           <div class="chart-container">
              <canvas id="firstchart" class="mt-30 w-4/5 mx-auto bg-gray-800 rounded-3xl bg-white"></canvas>
           </div> 
@@ -20,7 +20,7 @@
 
 <script>
 import Chart from 'chart.js'
-import ChartData from '../chartdata/chartdata.js'
+import ChartData from '../component_data/chartdata.js'
 
 export default{
   name: 'Chart',

@@ -1,10 +1,10 @@
 export const ChartData = {
     type: 'bar',
     data: {
-    labels: ['vue components', 'figma images', 'charts used', 'totalAppElements'],
+    labels: ['vue components', 'figma images', 'data files', 'totalAppElements'],
     datasets: [{
       label: 'App Components',
-      data: [7, 8, 1, 16],
+      data: [7, 8, 2, 17],
       backgroundColor: [
         'rgba(255, 99, 132, 0.7)',
         'rgba(54, 162, 235, 0.5)',
