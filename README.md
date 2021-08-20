@@ -1,4 +1,4 @@
-# vue-3-tutorial
+# vue-3-app: how to use ?
 
 ## Project setup
 ```
