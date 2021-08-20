@@ -29,22 +29,6 @@ export const TextData = {
           'Also I have some knowledge about SQL and I was using Figma for some pictures of this site.',
           'READ AGAIN',
         ],
-
-        block_5: [
-            '5',
-            '5',
-            '5',
-            '5',
-            '5',
-        ],
-
-        block_6: [
-            '6',
-            '6',
-            '6',
-            '6',
-            '6',
-        ],
 };
 
 export default TextData;
