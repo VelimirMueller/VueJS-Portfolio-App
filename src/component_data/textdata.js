@@ -29,6 +29,13 @@ export const TextData = {
           'Also I have some knowledge about SQL and I was using Figma for some pictures of this site.',
           'READ AGAIN',
         ],
+        block_5: [
+          '5?',
+          'I like working with CLIs and I had the opporunity to work with Linux server systems during my intern.',
+          'I am also a huge fan of the Raspberry Pie and have set up alot of servers on it already.',
+          'Also I have some knowledge about SQL and I was using Figma for some pictures of this site.',
+          'READ AGAIN',
+        ],
 };
 
 export default TextData;
