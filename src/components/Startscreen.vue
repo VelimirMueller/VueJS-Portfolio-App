@@ -112,7 +112,6 @@ export default {
 #startscreen img {
   position: absolute;
   object-fit: cover;
-  pointer-events: none;
 }
 
 /* headline styles */

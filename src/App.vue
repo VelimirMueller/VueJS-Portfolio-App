@@ -43,7 +43,9 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
+a:hover {
+  cursor: pointer !important;
+}
 html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;

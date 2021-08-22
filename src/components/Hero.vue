@@ -33,28 +33,30 @@
           >
             {{ websiteContent.headlineDescription }}
           </p>
-
-          <button
-            class="
-              mt-12
-              h-12
-              text-lg
-              px-5
-              mt-4
-              mb-4
-              text-indigo-100
-              transition-colors
-              duration-150
-              bg-transparent
-              border-2 border-white
-              rounded-full
-              focus:shadow-outline
-              hover:bg-purple-800
-              mx-auto
-            "
-          >
-            {{ websiteContent.ctaButton }}
-          </button>
+           <a href="#contact" class="cursor-a">
+            <button
+              class="
+                mt-12
+                h-12
+                text-lg
+                px-5
+                mt-4
+                mb-4
+                text-indigo-100
+                transition-colors
+                duration-150
+                bg-transparent
+                border-2 border-white
+                rounded-full
+                focus:shadow-outline
+                hover:bg-purple-800
+                mx-auto
+              "
+            >
+              {{ websiteContent.ctaButton }}
+            
+            </button>
+          </a>
         </div>
 
         <!-- right hero section -->
@@ -106,4 +108,7 @@ export default {
 </script>
 
 <style>
+.cursor-a {
+  cursor:pointer;
+}
 </style>
