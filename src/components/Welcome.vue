@@ -1,5 +1,5 @@
 <template>
-  <section id="welcome">
+  <section id="welcome" class="bg-gray-900">
     <div class="max-w mx-auto sm:px-6 lg:px-8 h-12 bg-gray-900 h-screen">
       <div
         class="
@@ -10,11 +10,11 @@
           lg:px-8
           h-full
           background-image-container
-          bg-opacity-50
+          bg-gray-900 bg-opacity-50
         "
       >
         <!-- We've used 3xl here, but feel free to try other max-widths based on your needs -->
-        <div class="max-w-6xl mx-auto py-28 h-full">
+        <div class="max-w-6xl mx-auto h-full">
           <!-- Content goes here -->
 
           <div class="h-full mb-12">
@@ -22,7 +22,7 @@
               class="
                 inset-0
                 w-full
-                min-h-full
+                min-h-screen
                 bg-gray-900 bg-opacity-50
                 text-white
                 flex
@@ -102,13 +102,14 @@
                       mb-20
                       lg:h-16
                       lg:text-2xl
-                      border-2
+                      border-b-2 border-gray-700
                       rounded-full
                       text-center
                       hover:bg-white
                       hover:text-purple-900
                       hover:border-gray-500
                       transition-full
+                      lg:w-3/4
                       w-2/3
                       duration-500
                     "
@@ -138,13 +139,11 @@ export default {
   methods: {
     // this function maps all properties of textblock Object, data is imported
     show: function () {
-      console.log(Object.values(this.textblock)[0]);
-
-      let values = Object.values(this.textblock)[this.clickcounter]
+      let values = Object.values(this.textblock)[this.clickcounter];
       // for loop to map all properties of Object
       for (const number in values) {
-        let text = values[number]
-        // last element will be passed to button inner html the rest in <p></p> of this component
+        let text = values[number];
+        // last element will passed to button inner html the rest in <p></p> of this component
         if (number < values.length - 1) {
           let childElem = document.getElementById("textblock").children[number];
           childElem.innerHTML = text;
@@ -156,10 +155,11 @@ export default {
 
       this.clickcounter++; //counts clicks
 
-      //if clickcount is the same as the properties of Object -> scroll to next section and first property will be loaded again
-      if (this.clickcounter > values.length) {
+      //if clickcount is the same as the properties of Object - 1 -> scroll to next section and first property will be loaded again
+      if (this.clickcounter > Object.values(this.textblock).length) {
         document.getElementById("technologies").scrollIntoView();
         this.clickcounter = 0;
+        this.iterator = 0;
         this.show();
       } // end if clickcounter ==5
     }, //end show()
@@ -173,6 +173,10 @@ export default {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+section {
+  position: relative;
 }
 </style>
 

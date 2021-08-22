@@ -1,5 +1,6 @@
 <template>
   <Navbar />
+  <Startscreen />
   <Hero />
   <Welcome />
   <Technologies />
@@ -9,19 +10,19 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue';
-import Hero from './components/Hero.vue';
-import Welcome from './components/Welcome.vue';
-import Technologies from './components/Technologies.vue';
-import Charts from './components/Charts.vue';
-import Contact from './components/Contact.vue';
-import ScrollUp from './components/ScrollUp.vue';
-
-
+import Navbar from "./components/Navbar.vue";
+import Hero from "./components/Hero.vue";
+import Welcome from "./components/Welcome.vue";
+import Technologies from "./components/Technologies.vue";
+import Charts from "./components/Charts.vue";
+import Startscreen from "./components/Startscreen.vue";
+import ScrollUp from "./components/ScrollUp.vue";
+import Contact from "./components/Contact.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
+    Startscreen,
     Navbar,
     Hero,
     Welcome,
@@ -29,27 +30,27 @@ export default {
     Charts,
     Contact,
     ScrollUp,
-  }
-}
+  },
+};
 </script>
 
 <style>
-
+@import url("https://fonts.googleapis.com/css?family=Lato");
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Lato, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 
-html{
+html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
 }
 
-section{
+section {
   scroll-snap-align: start;
+  min-height: 600px;
 }
-
 </style>
