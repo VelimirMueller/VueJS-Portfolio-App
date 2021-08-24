@@ -34,19 +34,22 @@ import Chart from "chart.js";
 import ChartData from "../component_data/chartdata.js";
 
 export default {
-  name: "Chart",
+  
   data() {
     return {
       websiteContent: {
-        headline: "App Components",
+        headline: "Programming Skills",
       },
+
       ChartData: ChartData,
     };
   },
+
   mounted() {
     const ctx = document.getElementById("firstchart");
     new Chart(ctx, this.ChartData);
   },
+
 };
 </script>
 

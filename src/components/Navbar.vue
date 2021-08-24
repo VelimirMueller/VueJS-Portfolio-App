@@ -123,7 +123,7 @@
                 transition-all
                 duration-500s
               "
-              >Charts</a
+              >Programming Skills</a
             >
           </li>
           <li>
