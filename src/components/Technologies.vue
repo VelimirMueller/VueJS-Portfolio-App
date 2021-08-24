@@ -35,18 +35,16 @@
                   grid grid-cols-1
                   gap-8
                   sm:flex-row
-                  md:grid-cols-3
+                  md:grid-cols-1
                   lg:grid-cols-3
                 "
               >
                 <div
                   class="
                     hover-bounce-images
-                    col-span-2
+                    col-span-3
                     flex
                     justify-center
-                    sm:col-span-2
-                    md:col-span-2
                     lg:col-span-1
                   "
                 >
@@ -60,11 +58,9 @@
                 <div
                   class="
                     hover-bounce-images
-                    col-span-2
+                    col-span-3
                     flex
                     justify-center
-                    sm:col-span-2
-                    md:col-span-2
                     lg:col-span-1
                   "
                 >
@@ -78,11 +74,9 @@
                 <div
                   class="
                     hover-bounce-images
-                    col-span-2
+                    col-span-3
                     flex
                     justify-center
-                    sm:col-span-2
-                    md:col-span-2
                     lg:col-span-1
                   "
                 >
