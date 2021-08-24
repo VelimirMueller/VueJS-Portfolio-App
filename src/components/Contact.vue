@@ -23,7 +23,6 @@
             sm:text-5xl
             sm:tracking-tight
             lg:text-6xl
-            
           "
         >
           {{ websiteContent.headline }}

@@ -28,7 +28,7 @@
           flex
           items-center
           lg:m-20
-					m-2
+          m-2
           rounded
           p-3
         "
