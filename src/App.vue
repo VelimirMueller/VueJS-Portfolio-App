@@ -5,6 +5,7 @@
   <Welcome />
   <Technologies />
   <Charts />
+  <CV />
   <Contact />
   <ScrollUp />
 </template>
@@ -18,6 +19,7 @@ import Charts from "./components/Charts.vue";
 import Startscreen from "./components/Startscreen.vue";
 import ScrollUp from "./components/ScrollUp.vue";
 import Contact from "./components/Contact.vue";
+import CV from "./components/CV.vue";
 
 export default {
   name: "App",
@@ -28,6 +30,7 @@ export default {
     Welcome,
     Technologies,
     Charts,
+    CV,
     Contact,
     ScrollUp,
   },
@@ -54,5 +57,9 @@ html {
 section {
   scroll-snap-align: start;
   min-height: 600px;
+}
+
+#contact {
+  scroll-snap-align: start;
 }
 </style>

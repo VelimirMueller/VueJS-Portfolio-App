@@ -18,10 +18,7 @@
           background-image-container
         "
       >
-        <!-- We've used 3xl here, but feel free to try other max-widths based on your needs -->
         <div class="lg:w-6xl w-4/5 mx-auto py-20 h-full">
-          <!-- Content goes here -->
-
           <div
             class="
               tech-container

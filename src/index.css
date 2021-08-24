@@ -1,3 +1,5 @@
+/*import tailwind styles, installed with npm*/
+/*purge styles in root folder of this app -> postcss.config.js */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

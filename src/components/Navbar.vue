@@ -126,6 +126,27 @@
               >Programming Skills</a
             >
           </li>
+
+          <li>
+            <a
+              href="#biography"
+              class="
+                w-2/3
+                mx-auto
+                lg:w-full
+                lg:p-4
+                py-3
+                px-0
+                block
+                border-b-2 border-transparent
+                hover:border-gray-600
+                transition-all
+                duration-500s
+              "
+              >Biography</a
+            >
+          </li>
+
           <li>
             <a
               href="#contact"

@@ -1,5 +1,5 @@
 <template>
-  <a id="scrollupbutton" href="#hero" class="hidden">
+  <a id="scrollupbutton" href="#hero" class="hidden absolute">
     <div
       class="
         animate-bounce

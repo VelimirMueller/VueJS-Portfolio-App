@@ -20,7 +20,6 @@ export const ChartData = {
     },
     ]
   },
-
   options: {
     scale: {
       ticks: {

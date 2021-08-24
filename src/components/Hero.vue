@@ -24,7 +24,7 @@
           <p class="text-purple-500 text-2xl py-2 lg:text-4xl">
             {{ websiteContent.subheadline }}
           </p>
-          <h2 class="text-white text-4xl py-1 lg:text-5xl mt-2">
+          <h2 class="underline text-white text-4xl py-1 lg:text-5xl mt-2">
             {{ websiteContent.headline }}
           </h2>
           <p
@@ -33,7 +33,7 @@
           >
             {{ websiteContent.headlineDescription }}
           </p>
-           <a href="#contact" class="cursor-a">
+          <a href="#contact" class="cursor-a">
             <button
               class="
                 mt-12
@@ -54,7 +54,6 @@
               "
             >
               {{ websiteContent.ctaButton }}
-            
             </button>
           </a>
         </div>
@@ -68,7 +67,7 @@
             rounded-full
             flex
             items-center
-            justify-center
+            justify-centers
           "
         >
           <img
@@ -109,6 +108,6 @@ export default {
 
 <style>
 .cursor-a {
-  cursor:pointer;
+  cursor: pointer;
 }
 </style>

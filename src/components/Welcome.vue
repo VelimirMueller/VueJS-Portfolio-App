@@ -13,10 +13,7 @@
           bg-gray-900 bg-opacity-50
         "
       >
-        <!-- We've used 3xl here, but feel free to try other max-widths based on your needs -->
         <div class="max-w-6xl mx-auto h-full">
-          <!-- Content goes here -->
-
           <div class="h-full mb-12">
             <div
               class="
@@ -49,6 +46,7 @@
                     text-2xl
                     lg:text-4xl
                     text-center
+                    underline
                   "
                 ></p>
                 <p
@@ -114,7 +112,7 @@
                       duration-500
                     "
                   >
-                    WHO I AM
+                    {{ initalButtonText }}
                   </button>
                 </div>
               </span>
@@ -134,6 +132,7 @@ export default {
     return {
       clickcounter: 0,
       textblock: TextData,
+      initalButtonText: "WHO I AM",
     };
   },
   methods: {

@@ -60,10 +60,10 @@ export default {
   methods: {
     // moves .png files based on scrollY to create parallax effect
     animateScreen: window.addEventListener("scroll", function () {
-      this.bg.style.top = window.scrollY * 0.5 + "px";
-      this.moon.style.left = window.scrollY * 1.25 + "px";
-      this.skyline.style.top = window.scrollY * 3 * 0.45 + "px";
-      this.landscape.style.right = window.scrollY * 0.95 + "px";
+      this.bg.style.top = window.scrollY * 0.35 + "px";
+      this.moon.style.left = window.scrollY * 0.75 + "px";
+      this.skyline.style.top = window.scrollY * 3 * 0.35 + "px";
+      this.landscape.style.right = window.scrollY * 0.65 + "px";
       this.landscapetext.style.right = window.scrollY * 0.45 + "px";
     }),
     //fades out scroll button by default

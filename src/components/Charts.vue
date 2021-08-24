@@ -4,7 +4,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
         <div class="lg:w-6xl w-full mx-auto py-12 h-full">
           <!-- Content -->
-          <h1 class="text-4xl text-gray-200 mb-12">
+          <h1 class="text-4xl text-gray-200 mb-12 underline">
             {{ websiteContent.headline }}
           </h1>
           <div class="chart-container">
@@ -34,7 +34,6 @@ import Chart from "chart.js";
 import ChartData from "../component_data/chartdata.js";
 
 export default {
-  
   data() {
     return {
       websiteContent: {
@@ -49,7 +48,6 @@ export default {
     const ctx = document.getElementById("firstchart");
     new Chart(ctx, this.ChartData);
   },
-
 };
 </script>
 

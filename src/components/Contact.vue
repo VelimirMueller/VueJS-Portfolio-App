@@ -1,7 +1,7 @@
 <template>
-  <section id="contact">
-    <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-      <div class="text-center">
+  <section id="contact" class="bg-white relative">
+    <div class="max-w-7xl mx-auto md:pt-8 mt-0 px-4 sm:px-6 lg:px-8 lg:mt--12">
+      <div class="text-center py-4">
         <h2
           class="
             text-base
@@ -9,6 +9,7 @@
             text-purple-700
             tracking-wide
             uppercase
+            text-2xl
           "
         >
           {{ websiteContent.subheadline }}
@@ -22,6 +23,7 @@
             sm:text-5xl
             sm:tracking-tight
             lg:text-6xl
+            
           "
         >
           {{ websiteContent.headline }}
@@ -133,7 +135,7 @@
             </div>
           </div>
         </div>
-        <h2>&#169;{{ websiteContent.copyright }}</h2>
+        <h2 class="mb-0">&#169;{{ websiteContent.copyright }}</h2>
       </div>
     </div>
   </section>
@@ -158,3 +160,6 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+</style>
