@@ -147,12 +147,12 @@ export default {
       websiteContent: {
         headline: "Get in touch with me",
         subheadline: "Contact",
-        copyright: "2021 - Velimir Müller",
+        copyright: "©2021-now - all rights reserved - author: Velimir Müller",
       },
       cardContent: {
         name: "Velimir Müller",
         location: "Berlin, Germany",
-        phone: "+49 177 189 34 23",
+        phone: "+49 160 986 75 017",
         email: "velimir.mueller@gmail.com",
       },
     };
