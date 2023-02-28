@@ -5,6 +5,19 @@ export const CVdata = {
 		careerStations: [
 			{
 				id: 1,
+				title: 'DEMOS E-Participation GmbH',
+				type: 'employment - Frontend Engineer',
+				activitiesOverview: 'Web Development wit vue, symfony and python ',
+				activitiesDetails:
+					[
+						'Development of features for AI based software to handle public participation procedures',
+						'Frontend feature implementation, webpack configs and python middleware development (flask)',
+					],
+				startDate: 'August 2021',
+				endDate: 'still employed here',
+			},
+			{
+				id: 2,
 				title: 'VHS Servicecenter IT Department',
 				type: 'Internship',
 				activitiesOverview: 'Web Development, Server Administration, IT Security ',
@@ -17,7 +30,7 @@ export const CVdata = {
 				endDate: 'May 2021',
 			},
 			{
-				id: 2,
+				id: 3,
 				title: 'Cimdata Educational Academy GmbH',
 				type: 'Vocational training',
 				activitiesOverview: 'IT Specialist for application development',
@@ -29,7 +42,7 @@ export const CVdata = {
 				endDate: 'July 2021',
 			},
 			{
-				id: 3,
+				id: 4,
 				title: 'Freelancer',
 				type: 'self-employed',
 				activitiesOverview: 'Web development and content creation ',
@@ -42,7 +55,7 @@ export const CVdata = {
 				endDate: 'July 2021',
 			},
 			{
-				id: 4,
+				id: 5,
 				title: 'Zalando SE',
 				type: 'employment',
 				activitiesOverview: 'Specialist',
@@ -56,7 +69,7 @@ export const CVdata = {
 				endDate: 'March 2019',
 			},
 			{
-				id: 5,
+				id: 6,
 				title: 'TZB GmbH',
 				type: 'employment',
 				activitiesOverview: 'Specialist',
@@ -68,7 +81,7 @@ export const CVdata = {
 				endDate: 'March 2017',
 			},
 			{
-				id: 6,
+				id: 7,
 				title: 'WeTeK and Reinhold Burger School Berlin',
 				type: 'employment',
 				activitiesOverview: 'Media education for young people',
